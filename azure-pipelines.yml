@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: unbutu-latest
+  name: Default
 
 variables:
   buildConfiguration: 'Release'
