@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: bambam
+  vmImage: unbutu-latest
 
 variables:
   buildConfiguration: 'Release'
